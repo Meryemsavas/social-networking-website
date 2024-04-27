@@ -1,0 +1,161 @@
+
+
+/* Stijlen voor de like-knop */
+.like-section {
+    display: flex;
+    align-items: center;
+}
+
+.like-btn {
+    cursor: pointer;
+}
+
+.heart {
+    color:darkgray;
+    /* Kleur van het hart symbool */
+    font-size: 20px;
+    /* Grootte van het hart symbool */
+
+    /* Plek tussen het hartje en de likes */
+    margin-right: 5px;
+}
+
+.like-btn.clicked .heart {
+    color: darkgrey;
+    /* Kleur van het hart symbool wanneer het is geliked */
+}
+
+.own-tweets {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page_title {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#post_text {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#comment_content{
+    border: 2px solid;
+        border-radius: 10px;
+        font-size: 20px;
+}
+
+.comment_button{
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+        padding: 10px;
+}
+
+
+.tweet_icons-add{
+}
+
+.tweet_box {
+    margin: 30px;
+    border-left: 3px solid;
+    width: 700px;
+    
+}
+
+.tweet_images{
+    height: 400px;
+}
+
+.tweet_images img{
+    height: 400px;
+}
+
+.image_tag{
+    height: 400px;
+}
+
+.tweet_body{
+    margin: 20px;
+    width: max-content;
+}
+
+.tweet_body p{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tweet_body em{
+    color: dimgrey;
+}
+
+#names_content{
+    display: flex;
+}
+
+.fa.fa-comment{
+    color: darkgrey;
+}
+
+.comment{
+margin: 30px;
+    border-left: 3px solid;
+}
+
+.comment p{
+    margin-left: 20px;
+}
+
+.comments-container{
+    margin: 40px;
+}
+
+#upload_image_button {
+    padding:  10px;
+    /* Kies de gewenste achtergrondkleur */
+    border-radius: 7px;
+    margin: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+
+.button_tweet{
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+
+
+
+.update_tweet_button{
+    color: white;
+        background-color: black;
+        border-radius: 7px;
+        padding: 10px;
+}
+
+
+.about_us {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    width: 500px;
+}
+
+.first_about_us{
+    margin-bottom: 40px;
+}
+
+.tweet_icons-add a{
+    color: black;
+}
